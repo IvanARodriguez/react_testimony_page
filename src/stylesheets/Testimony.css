@@ -1,0 +1,42 @@
+.testimony_container{
+    margin-top: 1.5rem;
+    background-color: hsl(0, 0%, 100%);
+    max-width: 1000px;
+    display: grid;
+    gap: 1rem;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimony_image{
+    height: 280px;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.text_content_container{
+    padding: 0 1.3rem
+}
+
+.testimony_name{
+    
+}
+
+.testimony_text{
+    text-align: justify;
+}
+
+
+
+@media screen and (min-width: 800px) {
+    .testimony_container{
+        grid-template-columns: .5fr 1.5fr;
+    }
+
+    .testimony_image{
+        max-height: 100%;
+        margin: 0 auto;
+        padding-top: 0rem;
+    }
+}
