@@ -7,6 +7,9 @@
     text-align: center;
     justify-content: space-between;
     align-items: center;
+    border-radius: .6rem;
+    box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.101);
+    overflow: hidden;
 }
 
 .testimony_image{
@@ -20,7 +23,13 @@
 }
 
 .testimony_name{
-    
+    padding-bottom: .3rem;
+    font-size: 1.4em;
+}
+
+.testimony_profession{
+    padding-bottom: 0.3rem;
+    color: grey;
 }
 
 .testimony_text{
